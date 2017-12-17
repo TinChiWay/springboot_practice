@@ -1,11 +1,12 @@
-package edu.tinchiway.entity;
+package edu.tinchiway.domain;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 
 /**
- * Created by TinChiWay on 2017/12/12.
+ * @author TinChiWay
+ * @create 2017/12/12
  */
 
 @Component

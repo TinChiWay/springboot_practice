@@ -1,15 +1,20 @@
 package edu.tinchiway.controller;
 
 import com.alibaba.fastjson.JSON;
-import edu.tinchiway.entity.GirlProperties;
+import edu.tinchiway.domain.GirlProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 
 /**
- * Created by TinChiWay on 2017/12/5.
+ * @author TinChiWay
+ * @date 2017/12/5.
  */
-@RestController //@Controller+@ResponseBody 返回json数据格式的控制器
+
+@RestController
+/**
+ * @Controller+@ResponseBody 返回json数据格式的控制器
+ * */
 @RequestMapping("/hello")
 public class GirlController {
 
