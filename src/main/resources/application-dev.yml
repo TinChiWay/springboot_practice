@@ -15,7 +15,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
-  mapper-locations: /edu/tinchiway/domain/mapper/*.xml #指定mapper.xml位置
+  # mapper-locations: /edu/tinchiway/domain/mapper/*.xml #指定mapper.xml位置
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
     default-fetch-size: 50 #结果集数量

@@ -33,6 +33,7 @@ public class GirlProperties {
 
     @Override
     public String toString() {
+
         return "GirlProperties{" +
                 "cupSize='" + cupSize + '\'' +
                 ", age=" + age +
